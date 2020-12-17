@@ -2,4 +2,18 @@ body {
     background: wheat;
 }
 
- 
+ .navbar-m {
+    margin-top: -3rem;
+    
+ }
+ .navbar-m .nav-item .nav-link {
+    font-family: 'papyrus';
+    font-size: 2rem;
+    color: black;
+ }
+ .img-hero {
+    margin-top: 1rem;
+    width: 75rem;
+    height: 27rem;
+    object-fit: cover;
+}
