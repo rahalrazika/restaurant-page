@@ -22,3 +22,19 @@ body {
    height: 24rem;
    object-fit: cover;
 }
+.contact {
+   background: no-repeat url('../src/images/bg.jpg');
+   background-size: cover;
+   width: 100%;
+   height: 20rem;
+}
+
+.pb4 {
+   padding-top: 4rem;
+}
+.contact-text{
+ font-family: 'Comic Sans MS';
+ margin-left: 6rem;  
+ 
+
+}
