@@ -14,6 +14,11 @@ body {
  .img-hero {
     margin-top: 1rem;
     width: 75rem;
-    height: 27rem;
+    height: 25rem;
     object-fit: cover;
+}
+ .about-banner {
+   width:80rem;
+   height: 24rem;
+   object-fit: cover;
 }

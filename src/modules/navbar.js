@@ -8,7 +8,7 @@ logo.classList.add('rounded', 'mx-auto', 'd-block', 'navbar-m');
 
 const navbar = document.createElement('ul');
 navbar.classList.add('nav', 'justify-content-center', 'navbar-m');
-const navlist = ['Home', 'Menu', 'Contact'];
+const navlist = ['Home', 'About', 'Menu', 'Contact'];
 
 
 for (let i = 0; i < navlist.length; i += 1) {
