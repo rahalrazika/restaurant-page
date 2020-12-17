@@ -35,6 +35,11 @@ body {
 .contact-text{
  font-family: 'Comic Sans MS';
  margin-left: 6rem;  
- 
 
+}
+
+.menu-img {
+   height: 22rem;
+   opacity: 0.9;
+   object-fit: fill;
 }
