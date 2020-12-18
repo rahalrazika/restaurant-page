@@ -31,7 +31,4 @@ tabs.forEach(currentItem => {
     if (event.target.id === 'tab-link-3') navigator(contactComp);
   });
 });
-/* content.appendChild(containre);
-content.appendChild(about);
-content.appendChild(menu);
-content.appendChild(contact); */
+
