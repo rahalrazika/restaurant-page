@@ -4,6 +4,7 @@ import item3 from '../images/menu3.jpg';
 import item4 from '../images/menu4.jpg';
 import item5 from '../images/menu5.jpg';
 
+const menuContainer = (param) => {
 const menu = document.createElement('div');
 menu.classList.add('menu');
 
@@ -33,5 +34,6 @@ menu.classList.add('menu');
     menu.appendChild(card);
 
   }
-
-export default menu;
+  param.appendChild(menu)
+}
+export default menuContainer;

@@ -1,4 +1,4 @@
-
+const contactContainer = (param) => {
 const contact = document.createElement('div');
 contact.classList.add('contact');
 const text = document.createElement('h1');
@@ -20,10 +20,8 @@ const adress = document.createElement('h2');
 adress.classList.add('text-white', 'contact-text');
 adress.textContent = 'Gtrand St. New York';
 
-contact.appendChild(text);
-contact.appendChild(phoneText);
-contact.appendChild(phoneNumber);
-contact.appendChild(adressText);
-contact.appendChild(adress);
+contact.append(text,phoneText,phoneNumber,adressText,adress);
+param.appendChild(contact)
+}
 
-export default contact;
+export default contactContainer;

@@ -1,5 +1,5 @@
 import bannerImg from '../images/banner.jpg';
-
+const aboutContainer = (param) => { 
 const about = document.createElement('div');
 const h1 = document.createElement('h1');
 h1.classList.add('h1', 'text-danger', 'text-center');
@@ -16,9 +16,7 @@ banner.src = bannerImg;
 banner.classList.add('about-banner', 'mx-auto');
 
 
-about.appendChild(h1);
-about.appendChild(aboutText);
-
-about.appendChild(banner);
-
-export default about;
+about.append(h1,aboutText,banner);
+param.appendChild(about)
+}
+export default aboutContainer;
