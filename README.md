@@ -14,7 +14,7 @@ The Milkyday bar is an app built with JS and Webpack
 
 
 ## Live Demo 🚀
-[Library]()
+[Milkyday](https://rahalrazika.github.io/restaurant-page/)
 
 ## Getting Started 💻
 
