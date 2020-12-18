@@ -1,45 +1,48 @@
 body {
-    background: wheat;
+  background: wheat;
 }
 
- .navbar-m {
-    margin-top: -3rem;
-    
- }
- .navbar-m .nav-item .nav-link {
-    font-family: 'papyrus';
-    font-size: 2rem;
-    color: black;
- }
- .img-hero {
-    margin-top: 1rem;
-    width: 75rem;
-    height: 25rem;
-    object-fit: cover;
+.navbar-m {
+  margin-top: -3rem;
 }
- .about-banner {
-   width:80rem;
-   height: 24rem;
-   object-fit: cover;
+
+.navbar-m .nav-item .nav-link {
+  font-family: 'papyrus', sans-serif;
+  font-size: 2rem;
+  color: black;
 }
+
+.img-hero {
+  margin-top: 1rem;
+  width: 75rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.about-banner {
+  width: 80rem;
+  height: 24rem;
+  object-fit: cover;
+}
+
 .contact {
-   background: no-repeat url('../src/images/bg.jpg');
-   background-size: cover;
-   width: 100%;
-   height: 25rem;
+  background: no-repeat url('../src/images/bg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
 }
 
 .pb4 {
-   padding-top: 4rem;
+  padding-top: 4rem;
 }
-.contact-text{
- font-family: 'Comic Sans MS';
- margin-left: 6rem;  
 
+.contact-text {
+  font-family: 'Comic Sans MS', sans-serif;
+  margin-left: 6rem;
 }
 
 .menu-img {
-   height: 22rem;
-   opacity: 0.9;
-   object-fit: fill;
+  height: 22rem;
+  opacity: 0.9;
+  object-fit: fill;
 }
