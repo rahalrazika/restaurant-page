@@ -1,0 +1,39 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.2",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahalrazika/restaurant-page.git"
+  },
+  "author": "raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahalrazika/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/rahalrazika/restaurant-page#readme"
+}
